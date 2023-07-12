@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Dariob\LaravelComuniItaliani\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class LaravelComuniItalianiCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-comuni-italiani';
 
     public $description = 'My command';
 
