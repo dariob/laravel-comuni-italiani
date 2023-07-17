@@ -19,7 +19,7 @@ class LaravelComuniItalianiServiceProvider extends PackageServiceProvider
             ->name('laravel-comuni-italiani')
             ->hasConfigFile()
             ->hasViews()
-            ->hasMigration('create_laravel-comuni-italiani_table')
+            ->hasMigration('create_comuni_italiani_table')
             ->hasCommand(LaravelComuniItalianiCommand::class);
     }
 }
